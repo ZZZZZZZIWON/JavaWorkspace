@@ -9,9 +9,10 @@ public class _01_Method {
     public static void main(String[] args) {
         // 메소드 호출
         System.out.println("메소드 호출 전");
-        sayHello();
-        sayHello();
-        sayHello();
         System.out.println("메소드 호출 후");
+        sayHello();
+        sayHello();
+        sayHello();
+
     }
 }
