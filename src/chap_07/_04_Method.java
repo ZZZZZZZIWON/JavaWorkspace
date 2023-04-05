@@ -2,12 +2,12 @@ package chap_07;
 
 public class _04_Method {
     public static void main(String[] args) {
-        Blackbox b1 = new Blackbox();
+        BlackBox b1 = new BlackBox();
         b1.modelName = "까망";
 
         System.out.println(" - 기능 지원 전 - ");
         b1.autoReport(); // 지원 안됨
-        Blackbox.canAutoReport = true;
+        BlackBox.canAutoReport = true;
 
         System.out.println(" - 기능 지원 후 - ");
         b1.autoReport(); // 지원 됨

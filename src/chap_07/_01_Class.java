@@ -22,10 +22,10 @@ public class _01_Class {
         String color2 = "화이트";
 
         // 또다른 제품을 개발?
-        Blackbox bbox = new Blackbox();
-        // Blackbox 클래스로부터 bbox 객체 생성
-        // bbox 객체는 Blackbox 클래스의 인스턴스
+        BlackBox bbox = new BlackBox();
+        // BlackBox 클래스로부터 bbox 객체 생성
+        // bbox 객체는 BlackBox 클래스의 인스턴스
 
-        Blackbox bbox2 = new Blackbox();
+        BlackBox bbox2 = new BlackBox();
     }
 }

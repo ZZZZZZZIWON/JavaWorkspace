@@ -4,7 +4,7 @@ import java.sql.SQLOutput;
 
 public class _05_MethodOverloading {
     public static void main(String[] args) {
-        Blackbox b1 = new Blackbox();
+        BlackBox b1 = new BlackBox();
         b1.modelName = "까망";
 
         b1.record(false, false, 10);
@@ -16,7 +16,7 @@ public class _05_MethodOverloading {
         b1.record();
 
         // String
-        String s = "Blackbox";
+        String s = "BlackBox";
         System.out.println(s.indexOf("a"));
     }
 }
