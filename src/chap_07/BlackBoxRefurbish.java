@@ -47,6 +47,5 @@ public class BlackBoxRefurbish {
         this.color = color;
     }
 
-
-
 }
+
