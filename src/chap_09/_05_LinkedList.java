@@ -31,7 +31,7 @@ public class _05_LinkedList {
         System.out.println("---------------");
 
         list.addLast("김희철");
-        for ( String s : list ) {
+        for (String s : list) {
             System.out.println(s);
         }
 
@@ -47,20 +47,20 @@ public class _05_LinkedList {
 
         // 삭제
         System.out.println("남은 학생 수 (제외 전) : " + list.size());
-        list.remove(list.size()-1);
+        list.remove(list.size() - 1);
         System.out.println("남은 학생 수 (제외 후) : " + list.size());
 
         System.out.println("---------------");
 
         // 처음 학생과 마지막 학생이 전학
-        for ( String s : list) {
+        for (String s : list) {
             System.out.println(s);
         }
         System.out.println("남은 학생 수 (전학 전) : " + list.size());
         list.removeFirst(); // 처음 데이터
         list.removeLast(); // 마지막 데이터
         System.out.println("남은 학생 수 (전학 후) : " + list.size());
-        for ( String s : list) {
+        for (String s : list) {
             System.out.println(s);
         }
 
@@ -100,15 +100,15 @@ public class _05_LinkedList {
         list.add("강호동");
         // list는 중복 데이터를 허용
 
-        for ( String s : list) {
+        for (String s : list) {
             System.out.println(s);
         }
 
         System.out.println("---------------");
 
         Collections.sort(list); // 정렬
-        for ( String s : list) {
+        for (String s : list) {
             System.out.println(s);
         }
-     }
+    }
 }
